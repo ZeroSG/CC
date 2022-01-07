@@ -1,0 +1,65 @@
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 20px;
+    line-height: 20px;
+    align-content: center;
+}
+.container-fluid{
+    padding-left: 15px;
+}
+p.head {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    flex-direction: row;
+    padding-right: 7px;
+    font-size: 18px;
+}
+i{
+    font-size: 3rem;
+    margin-right: 0.5rem;
+    color: rgb(255, 238, 0);
+}
+.p-button-lg{
+    font-size: 18px;
+    border: 2px solid #130707;
+}
+.p-inputtext-lg{
+    font-size: 18px;
+    padding-left: 4rem
+}
+span{
+    i{
+        font-size: 2.3rem;
+    }
+}
+h3{
+    color: #000;
+
+}
+h4{
+    color: #000;
+}
+
+tr{
+    th{
+        font-size: 20px;
+        color: rgb(31, 7, 7); 
+        background: linear-gradient(45deg,  #845EC2, #D65DB1, #FF6F91, #FF9671, #FFC75F,#F9F871);
+        padding: 1rem 5rem;  
+        border: 2px solid #130707;
+        animation: gradient 5s infinite;
+    }
+    td{
+         color: rgb(2, 1, 1); 
+        font-size: 18px ; 
+        background: linear-gradient(45deg,  #fffde7, #fff9c4, #fff59d, #fff176, #ffee58,#ffeb3b,#fdd835,#fbc02d,#f9a825,#f57f17
+);
+        padding: 1rem 1.5rem; 
+        border: 2px solid #0c0a0a;
+        animation: gradient 5s infinite;
+    }
+    
+}
